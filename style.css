@@ -1,0 +1,60 @@
+body {
+  background-color: #f5f5dc;
+}
+#main {
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+  font-size: 1.1em;
+}
+h1 {
+  font-size: 1.5em;
+}
+h2 {
+  font-size: 1.2em;
+}
+#image {
+  max-width: 80%;
+  border-radius: 5%;
+  display: block;
+  margin: auto;
+  height: auto;
+  max-height: 280px;
+}
+#img-div {
+  margin: 0.25em;
+}
+#img-caption {
+  display: block;
+  margin: 0.25em;
+}
+#tribute-info {
+  text-align: left;
+}
+fieldset {
+  margin-top: 0.5em;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+.citation {
+  font-size: .8em;
+}
+#tribute-link {
+  display: block;
+  text-align: left;
+  margin: 0.75em;
+}
+@keyframes link-animation {
+  0% {
+    font-size: 1em;
+  }
+  100% {
+    font-size: 1.1em;
+  }
+}
+#tribute-link:hover {
+  color: blue;
+  animation-name: link-animation;
+  animation-duration: 0.1s;
+  animation-timing-funtion: ease-in;
+  animation-fill-mode: forwards;
+}
